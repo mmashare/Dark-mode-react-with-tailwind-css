@@ -1,5 +1,9 @@
+import Toggle from "./components/toggle";
+
 function App() {
-  return <div className="App">welcome to a simple react app</div>;
+  return <div className="App">
+    <Toggle />
+  </div>;
 }
 
 export default App;
